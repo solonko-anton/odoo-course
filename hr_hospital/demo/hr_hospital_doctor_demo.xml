@@ -1,0 +1,57 @@
+
+<odoo>
+	<data noupdate="1">
+
+		<record id="doctor_emma_turner" model="hr.hospital.doctor">
+			<field name="name">Dr. Emma Turner</field>
+			<field name="specialty">General Practitioner</field>
+			<field name="phone">+1-555-0200</field>
+			<field name="years_of_experience">8</field>
+			<field name="contact_number">+1-555-0200</field>
+			<field name="email">emma.turner@example.com</field>
+			<field name="available">True</field>
+		</record>
+
+		<record id="doctor_li_wang" model="hr.hospital.doctor">
+			<field name="name">Dr. Li Wang</field>
+			<field name="specialty">Cardiologist</field>
+			<field name="phone">+1-555-0201</field>
+			<field name="years_of_experience">12</field>
+			<field name="contact_number">+1-555-0201</field>
+			<field name="email">li.wang@example.com</field>
+			<field name="available">True</field>
+		</record>
+
+		<record id="doctor_olga_petrov" model="hr.hospital.doctor">
+			<field name="name">Dr. Olga Petrov</field>
+			<field name="specialty">Pediatrics</field>
+			<field name="phone">+1-555-0202</field>
+			<field name="years_of_experience">6</field>
+			<field name="contact_number">+1-555-0202</field>
+			<field name="email">olga.petrov@example.com</field>
+			<field name="available">False</field>
+		</record>
+
+		<record id="doctor_ricardo_oliveira" model="hr.hospital.doctor">
+			<field name="name">Dr. Ricardo Oliveira</field>
+			<field name="specialty">Orthopedics</field>
+			<field name="phone">+1-555-0203</field>
+			<field name="years_of_experience">15</field>
+			<field name="contact_number">+1-555-0203</field>
+			<field name="email">ricardo.oliveira@example.com</field>
+			<field name="available">True</field>
+		</record>
+
+		<record id="doctor_sarah_adeyemi" model="hr.hospital.doctor">
+			<field name="name">Dr. Sarah Adeyemi</field>
+			<field name="specialty">Dermatology</field>
+			<field name="phone">+1-555-0204</field>
+			<field name="years_of_experience">4</field>
+			<field name="contact_number">+1-555-0204</field>
+			<field name="email">sarah.adeyemi@example.com</field>
+			<field name="available">False</field>
+		</record>
+
+	</data>
+</odoo>
+

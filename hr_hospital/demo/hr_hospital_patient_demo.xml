@@ -1,0 +1,46 @@
+
+<odoo>
+	<data>
+		<record id="patient_john_doe" model="hr.hospital.patient">
+			<field name="name">John Doe</field>
+			<field name="age">34</field>
+			<field name="gender">male</field>
+			<field name="contact_number">+1-555-0100</field>
+			<field name="address">123 Main St, Springfield</field>
+		</record>
+
+		<record id="patient_jane_smith" model="hr.hospital.patient">
+			<field name="name">Jane Smith</field>
+			<field name="age">28</field>
+			<field name="gender">female</field>
+			<field name="contact_number">+1-555-0101</field>
+			<field name="address">45 Oak Avenue, Springfield</field>
+		</record>
+
+		<record id="patient_alex_kim" model="hr.hospital.patient">
+			<field name="name">Alex Kim</field>
+			<field name="age">16</field>
+			<field name="gender">other</field>
+			<field name="contact_number">+1-555-0102</field>
+			<field name="address">78 Pine Road, Springfield</field>
+		</record>
+
+		<record id="patient_maria_garcia" model="hr.hospital.patient">
+			<field name="name">Maria Garcia</field>
+			<field name="age">62</field>
+			<field name="gender">female</field>
+			<field name="contact_number">+1-555-0103</field>
+			<field name="address">Unit 5B, 10 River St, Springfield</field>
+		</record>
+
+		<record id="patient_samuel_lee" model="hr.hospital.patient">
+			<field name="name">Samuel Lee</field>
+			<field name="age">45</field>
+			<field name="gender">male</field>
+			<field name="contact_number">+1-555-0104</field>
+			<field name="address">99 Market St, Springfield</field>
+		</record>
+
+	</data>
+</odoo>
+

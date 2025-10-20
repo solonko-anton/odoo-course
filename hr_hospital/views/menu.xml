@@ -1,0 +1,5 @@
+<odoo>
+    <menuitem id="hr_hospital_main_menu" 
+            name="Hospital Management" 
+            sequence="20"/>
+</odoo>

@@ -1,0 +1,27 @@
+<odoo>
+    <data noupdate="1">
+        <record id="disease_flu" model="hr.hospital.diseases">
+            <field name="name">Influenza (Flu)</field>
+            <field name="description">A contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs.</field>
+            <field name="symptoms">Fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, fatigue</field>
+            <field name="treatment">Rest, fluid intake, antiviral medications in severe cases or for high-risk patients; supportive care.</field>
+            <field name="contagious">True</field>
+        </record>
+
+        <record id="disease_chickenpox" model="hr.hospital.diseases">
+            <field name="name">Chickenpox</field>
+            <field name="description">A highly contagious disease caused by the varicella-zoster virus, characterized by an itchy rash and red spots or blisters all over the body.</field>
+            <field name="symptoms">Itchy rash, fever, tiredness, loss of appetite, headache</field>
+            <field name="treatment">Calamine lotion, antihistamines for itch, antiviral drugs for severe cases; vaccination is preventive.</field>
+            <field name="contagious">True</field>
+        </record>
+
+        <record id="disease_diabetes_type2" model="hr.hospital.diseases">
+            <field name="name">Diabetes Type 2</field>
+            <field name="description">A chronic condition that affects the way the body processes blood sugar (glucose). Not infectious.</field>
+            <field name="symptoms">Increased thirst, frequent urination, hunger, fatigue, blurred vision, slow-healing sores</field>
+            <field name="treatment">Lifestyle changes (diet, exercise), oral hypoglycemic agents, insulin in advanced cases; long-term monitoring.</field>
+            <field name="contagious">False</field>
+        </record>
+    </data>
+</odoo>

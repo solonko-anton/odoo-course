@@ -1,7 +1,6 @@
 
 <odoo>
 	<data noupdate="1">
-
 		<record id="doctor_emma_turner" model="hr.hospital.doctor">
 			<field name="name">Dr. Emma Turner</field>
 			<field name="specialty">General Practitioner</field>
@@ -51,7 +50,6 @@
 			<field name="email">sarah.adeyemi@example.com</field>
 			<field name="available">False</field>
 		</record>
-
 	</data>
 </odoo>
 
